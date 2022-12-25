@@ -14,7 +14,7 @@ jobs:
   build-deploy-aks:
     runs-on: ubuntu-latest
     env:
-      DOCKER_REPOSITORY: houssemdocker
+      DOCKER_REPOSITORY: kubelekpahi83
       IMAGE_NAME: web-app
       IMAGE_TAG: ${{ github.run_number }} # ${{ github.sha }}
       AKS_RESOURCE_GROUP: rg-aks-cluster-tf-023
