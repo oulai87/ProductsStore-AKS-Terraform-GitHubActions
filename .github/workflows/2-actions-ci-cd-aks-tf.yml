@@ -17,9 +17,9 @@ jobs:
       DOCKER_REPOSITORY: kubelekpahi83
       IMAGE_NAME: web-app
       IMAGE_TAG: ${{ github.run_number }} # ${{ github.sha }}
-      AKS_RESOURCE_GROUP: rg-aks-cluster-tf-027
+      AKS_RESOURCE_GROUP: rg-aks-cluster-tf-028
       AKS_NAME: aks-cluster
-      ACR_NAME: acrforakstf027
+      ACR_NAME: acrforakstf028
       TERRAFORM_VERSION: 1.3.6 
       WORKING_DIRECTORY: infra
     
