@@ -66,10 +66,6 @@ jobs:
         cluster-name: ${{ env.CLUSTER_NAME }}
         resource-group: ${{ env.RESOURSE_GROUP }}
         
-    - uses: trstringer/manual-approval@v1
-      with:
-        secret: ${{ github.TOKEN }}
-        approvers: trstringer,acdunnigan
         
     - uses: Azure/k8s-deploy@v1
       with:
